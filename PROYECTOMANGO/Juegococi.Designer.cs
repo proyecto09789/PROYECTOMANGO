@@ -1,6 +1,6 @@
 ﻿namespace PROYECTOMANGO
 {
-    partial class Juegococi
+    partial class btnrece24
     {
         /// <summary>
         /// Required designer variable.
@@ -32,11 +32,12 @@
             this.btncoci = new System.Windows.Forms.Button();
             this.btncoc22 = new System.Windows.Forms.Button();
             this.btnrec23 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(329, 30);
+            this.label1.Location = new System.Drawing.Point(196, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(236, 25);
             this.label1.TabIndex = 0;
@@ -70,16 +71,26 @@
             this.btnrec23.Text = "Receta 3";
             this.btnrec23.UseVisualStyleBackColor = true;
             // 
-            // Juegococi
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(426, 83);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 83);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Receta 4";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnrece24
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(938, 534);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnrec23);
             this.Controls.Add(this.btncoc22);
             this.Controls.Add(this.btncoci);
             this.Controls.Add(this.label1);
-            this.Name = "Juegococi";
+            this.Name = "btnrece24";
             this.Text = "Juegococi";
             this.ResumeLayout(false);
 
@@ -91,5 +102,6 @@
         private System.Windows.Forms.Button btncoci;
         private System.Windows.Forms.Button btncoc22;
         private System.Windows.Forms.Button btnrec23;
+        private System.Windows.Forms.Button button1;
     }
 }

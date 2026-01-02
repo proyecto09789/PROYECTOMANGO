@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTOMANGO
 {
-    public partial class Juegococi : Form
+    public partial class btnrece24 : Form
     {
-        public Juegococi()
+        public btnrece24()
         {
             InitializeComponent();
         }

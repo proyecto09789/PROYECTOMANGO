@@ -85,7 +85,7 @@ namespace PROYECTOBETA001
       
         private void btnjuegococi_Click(object sender, EventArgs e)
         {
-            Juegococi ventjuegococi = new Juegococi();
+            btnrece24 ventjuegococi = new btnrece24();
             ventjuegococi.Show();
             this.Hide();
         }
