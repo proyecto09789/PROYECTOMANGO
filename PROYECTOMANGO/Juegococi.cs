@@ -17,9 +17,11 @@ namespace PROYECTOMANGO
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btncoci_Click(object sender, EventArgs e)
         {
-
+            juegoreceta1 ventam1 = new juegoreceta1();
+            ventam1.Show();
+            this.Hide();
         }
     }
 }

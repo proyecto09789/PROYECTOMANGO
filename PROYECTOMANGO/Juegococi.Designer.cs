@@ -51,7 +51,7 @@
             this.btncoci.TabIndex = 1;
             this.btncoci.Text = "Receta 1";
             this.btncoci.UseVisualStyleBackColor = true;
-            this.btncoci.Click += new System.EventHandler(this.button1_Click);
+            this.btncoci.Click += new System.EventHandler(this.btncoci_Click);
             // 
             // btncoc22
             // 
@@ -91,6 +91,7 @@
             this.Controls.Add(this.btncoci);
             this.Controls.Add(this.label1);
             this.Name = "btnrece24";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juegococi";
             this.ResumeLayout(false);
 
