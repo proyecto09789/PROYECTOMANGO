@@ -73,6 +73,12 @@
     <Compile Include="Interfazprinc.Designer.cs">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Juegococi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juegococi.Designer.cs">
+      <DependentUpon>Juegococi.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginCreate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Interfazprinc.resx">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juegococi.resx">
+      <DependentUpon>Juegococi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginCreate.resx">
       <DependentUpon>LoginCreate.cs</DependentUpon>

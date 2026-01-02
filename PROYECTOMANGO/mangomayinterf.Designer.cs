@@ -67,11 +67,11 @@
             this.Recesta = new System.Windows.Forms.Label();
             this.CerrarbtnResetGlaseadoMango = new System.Windows.Forms.Button();
             this.menuinterzaprin01 = new System.Windows.Forms.Button();
+            this.btnjuegococi = new System.Windows.Forms.Button();
             this.picturmmeBox4 = new System.Windows.Forms.PictureBox();
             this.picth5ureBox1 = new System.Windows.Forms.PictureBox();
             this.pictmjtdureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.paneldelusoculinario.SuspendLayout();
             this.panelBeneficios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBjhox13)).BeginInit();
@@ -507,6 +507,18 @@
             this.menuinterzaprin01.UseVisualStyleBackColor = false;
             this.menuinterzaprin01.Click += new System.EventHandler(this.menuinterzaprin01_Click);
             // 
+            // btnjuegococi
+            // 
+            this.btnjuegococi.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnjuegococi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnjuegococi.Location = new System.Drawing.Point(1, 262);
+            this.btnjuegococi.Name = "btnjuegococi";
+            this.btnjuegococi.Size = new System.Drawing.Size(120, 46);
+            this.btnjuegococi.TabIndex = 10;
+            this.btnjuegococi.Text = "Juego";
+            this.btnjuegococi.UseVisualStyleBackColor = false;
+            this.btnjuegococi.Click += new System.EventHandler(this.btnjuegococi_Click);
+            // 
             // picturmmeBox4
             // 
             this.picturmmeBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -545,23 +557,12 @@
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(1, 262);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 46);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // mangomayinterf
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(952, 510);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnjuegococi);
             this.Controls.Add(this.paneldelusoculinario);
             this.Controls.Add(this.panelrecetaGlaseadoMangJengibre);
             this.Controls.Add(this.btnbenefsal);
@@ -641,6 +642,6 @@
         private System.Windows.Forms.Label la3b7el16;
         private System.Windows.Forms.PictureBox pictureBjhox13;
         private System.Windows.Forms.Label labjthel16;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnjuegococi;
     }
 }

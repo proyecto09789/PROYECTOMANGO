@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOMANGO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -79,6 +80,14 @@ namespace PROYECTOBETA001
         private void panelrecetaGlaseadoMangJengibre_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+      
+        private void btnjuegococi_Click(object sender, EventArgs e)
+        {
+            Juegococi ventjuegococi = new Juegococi();
+            ventjuegococi.Show();
+            this.Hide();
         }
     }
     
