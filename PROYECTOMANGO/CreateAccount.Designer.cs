@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelacco1 = new System.Windows.Forms.Label();
+            this.labelaccou2 = new System.Windows.Forms.Label();
+            this.labelaccou3 = new System.Windows.Forms.Label();
+            this.labelaccou4 = new System.Windows.Forms.Label();
+            this.labelaccou6 = new System.Windows.Forms.Label();
+            this.labelaccou7 = new System.Windows.Forms.Label();
+            this.labelaccou8 = new System.Windows.Forms.Label();
             this.txtFName = new System.Windows.Forms.TextBox();
             this.txtLName = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
@@ -44,72 +44,72 @@
             this.btnCreateAccount = new System.Windows.Forms.Button();
             this.btnBackToLogin = new System.Windows.Forms.Button();
             this.cboGender = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelaccou5 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // labelacco1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(142, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "First Name";
+            this.labelacco1.AutoSize = true;
+            this.labelacco1.Location = new System.Drawing.Point(142, 62);
+            this.labelacco1.Name = "labelacco1";
+            this.labelacco1.Size = new System.Drawing.Size(57, 13);
+            this.labelacco1.TabIndex = 0;
+            this.labelacco1.Text = "First Name";
             // 
-            // label2
+            // labelaccou2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(142, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Last Name";
+            this.labelaccou2.AutoSize = true;
+            this.labelaccou2.Location = new System.Drawing.Point(142, 92);
+            this.labelaccou2.Name = "labelaccou2";
+            this.labelaccou2.Size = new System.Drawing.Size(58, 13);
+            this.labelaccou2.TabIndex = 1;
+            this.labelaccou2.Text = "Last Name";
             // 
-            // label3
+            // labelaccou3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(148, 127);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Gender";
+            this.labelaccou3.AutoSize = true;
+            this.labelaccou3.Location = new System.Drawing.Point(148, 127);
+            this.labelaccou3.Name = "labelaccou3";
+            this.labelaccou3.Size = new System.Drawing.Size(42, 13);
+            this.labelaccou3.TabIndex = 2;
+            this.labelaccou3.Text = "Gender";
             // 
-            // label4
+            // labelaccou4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(151, 166);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Birthday";
+            this.labelaccou4.AutoSize = true;
+            this.labelaccou4.Location = new System.Drawing.Point(151, 166);
+            this.labelaccou4.Name = "labelaccou4";
+            this.labelaccou4.Size = new System.Drawing.Size(45, 13);
+            this.labelaccou4.TabIndex = 3;
+            this.labelaccou4.Text = "Birthday";
             // 
-            // label6
+            // labelaccou6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(154, 237);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Username";
+            this.labelaccou6.AutoSize = true;
+            this.labelaccou6.Location = new System.Drawing.Point(154, 237);
+            this.labelaccou6.Name = "labelaccou6";
+            this.labelaccou6.Size = new System.Drawing.Size(55, 13);
+            this.labelaccou6.TabIndex = 5;
+            this.labelaccou6.Text = "Username";
             // 
-            // label7
+            // labelaccou7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(154, 264);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Password";
+            this.labelaccou7.AutoSize = true;
+            this.labelaccou7.Location = new System.Drawing.Point(154, 264);
+            this.labelaccou7.Name = "labelaccou7";
+            this.labelaccou7.Size = new System.Drawing.Size(53, 13);
+            this.labelaccou7.TabIndex = 6;
+            this.labelaccou7.Text = "Password";
             // 
-            // label8
+            // labelaccou8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(132, 294);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Confirm Password";
+            this.labelaccou8.AutoSize = true;
+            this.labelaccou8.Location = new System.Drawing.Point(132, 294);
+            this.labelaccou8.Name = "labelaccou8";
+            this.labelaccou8.Size = new System.Drawing.Size(91, 13);
+            this.labelaccou8.TabIndex = 7;
+            this.labelaccou8.Text = "Confirm Password";
             // 
             // txtFName
             // 
@@ -189,14 +189,14 @@
             this.cboGender.TabIndex = 4;
             this.cboGender.SelectedIndexChanged += new System.EventHandler(this.cboGender_SelectedIndexChanged);
             // 
-            // label5
+            // labelaccou5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(151, 195);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(26, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Emil";
+            this.labelaccou5.AutoSize = true;
+            this.labelaccou5.Location = new System.Drawing.Point(151, 195);
+            this.labelaccou5.Name = "labelaccou5";
+            this.labelaccou5.Size = new System.Drawing.Size(26, 13);
+            this.labelaccou5.TabIndex = 10;
+            this.labelaccou5.Text = "Emil";
             // 
             // txtEmail
             // 
@@ -213,7 +213,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.labelaccou5);
             this.Controls.Add(this.cboGender);
             this.Controls.Add(this.btnBackToLogin);
             this.Controls.Add(this.btnCreateAccount);
@@ -223,13 +223,13 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.txtLName);
             this.Controls.Add(this.txtFName);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelaccou8);
+            this.Controls.Add(this.labelaccou7);
+            this.Controls.Add(this.labelaccou6);
+            this.Controls.Add(this.labelaccou4);
+            this.Controls.Add(this.labelaccou3);
+            this.Controls.Add(this.labelaccou2);
+            this.Controls.Add(this.labelacco1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
             this.Name = "CreateAccountForm";
@@ -243,13 +243,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelacco1;
+        private System.Windows.Forms.Label labelaccou2;
+        private System.Windows.Forms.Label labelaccou3;
+        private System.Windows.Forms.Label labelaccou4;
+        private System.Windows.Forms.Label labelaccou6;
+        private System.Windows.Forms.Label labelaccou7;
+        private System.Windows.Forms.Label labelaccou8;
         private System.Windows.Forms.TextBox txtFName;
         private System.Windows.Forms.TextBox txtLName;
         private System.Windows.Forms.TextBox txtUsername;
@@ -259,7 +259,7 @@
         private System.Windows.Forms.Button btnCreateAccount;
         private System.Windows.Forms.Button btnBackToLogin;
         private System.Windows.Forms.ComboBox cboGender;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelaccou5;
         private System.Windows.Forms.TextBox txtEmail;
     }
 }

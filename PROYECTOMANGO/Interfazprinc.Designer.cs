@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.labwdel1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labeltf2 = new System.Windows.Forms.Label();
             this.mascotMango = new System.Windows.Forms.Button();
             this.btndatcurios = new System.Windows.Forms.Button();
             this.transpvent = new System.Windows.Forms.Button();
@@ -51,17 +51,17 @@
             this.labwdel1.TabIndex = 7;
             this.labwdel1.Text = "Sistema Integral de Información y Recursos del Mango (SIIREM)";
             // 
-            // label2
+            // labeltf2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Sitka Display", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(175, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 19);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Cultivo y Cosecha";
+            this.labeltf2.AutoSize = true;
+            this.labeltf2.BackColor = System.Drawing.Color.Transparent;
+            this.labeltf2.Font = new System.Drawing.Font("Sitka Display", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltf2.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.labeltf2.Location = new System.Drawing.Point(175, 89);
+            this.labeltf2.Name = "labeltf2";
+            this.labeltf2.Size = new System.Drawing.Size(104, 19);
+            this.labeltf2.TabIndex = 8;
+            this.labeltf2.Text = "Cultivo y Cosecha";
             // 
             // mascotMango
             // 
@@ -167,7 +167,7 @@
             this.Controls.Add(this.btndatcurios);
             this.Controls.Add(this.transpvent);
             this.Controls.Add(this.Usocunl12);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labeltf2);
             this.Controls.Add(this.labwdel1);
             this.Controls.Add(this.Btnproduc);
             this.Name = "Interfazprinc";
@@ -182,7 +182,7 @@
         #endregion
         private System.Windows.Forms.Button Btnproduc;
         private System.Windows.Forms.Label labwdel1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labeltf2;
         private System.Windows.Forms.Button Usocunl12;
         private System.Windows.Forms.Button transpvent;
         private System.Windows.Forms.Button btndatcurios;
