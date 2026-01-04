@@ -67,6 +67,18 @@
     <Compile Include="Cuidatumango098.Designer.cs">
       <DependentUpon>Cuidatumango098.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAbono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbono.Designer.cs">
+      <DependentUpon>FormAbono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgua.Designer.cs">
+      <DependentUpon>FormAgua.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfazprinc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cuidatumango098.resx">
       <DependentUpon>Cuidatumango098.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAbono.resx">
+      <DependentUpon>FormAbono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgua.resx">
+      <DependentUpon>FormAgua.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfazprinc.resx">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
@@ -205,6 +223,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mangoFondo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mangoFondo1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abono.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abonopng.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
