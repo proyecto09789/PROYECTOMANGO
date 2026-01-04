@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOMANGO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,9 +17,13 @@ namespace PROYECTOBETA001
 
         string[] datos = new string[]
         {
-            "El mango es una de las frutas más antiguas del mundo: se cultiva desde hace más de 4.000 años, sobre todo en la India.",
-            "El árbol del mango puede vivir muchísimo: algunos pueden vivir más de 100 años y seguir dando frutos.",
-            "Existe en muchos tipos: hay más de 1.000 variedades de mango en todo el mundo, con distintos tamaños, colores y sabores.",
+         "Botánicamente, el mango es una drupa. Tiene una piel fina, pulpa carnosa y un hueso grande en el centro.",
+
+         "El mango es una fruta tropical rica en vitamina A y C, esenciales para la vista y el sistema inmune.",
+
+         "Existen más de 100 variedades de mango en el mundo, con distintos colores, sabores y tamaños.",
+
+         "El mango ayuda a la digestión y aporta antioxidantes beneficiosos para la salud."
         };
         public Datoscuriosooi()
         {
@@ -27,7 +32,7 @@ namespace PROYECTOBETA001
         }
         void MostrarDato()
         {
-            labelDatos.Text = datos[indice];
+            txtTexto.Text = datos[indice];
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -41,6 +46,12 @@ namespace PROYECTOBETA001
             {
                 indice++;
                 MostrarDato();
+            }
+            else
+            {
+                FormPreguntas quiz = new FormPreguntas();
+                quiz.Show();
+                this.Hide();
             }
         }
 
@@ -59,5 +70,7 @@ namespace PROYECTOBETA001
             frme2.Show();
             this.Hide();
         }
+
+
     }
 }

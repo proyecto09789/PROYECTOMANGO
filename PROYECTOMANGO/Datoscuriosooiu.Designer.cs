@@ -28,21 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelDatos = new System.Windows.Forms.Label();
             this.bntAnterio = new System.Windows.Forms.Button();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.txtTexto = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // labelDatos
-            // 
-            this.labelDatos.AutoSize = true;
-            this.labelDatos.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDatos.Location = new System.Drawing.Point(393, 154);
-            this.labelDatos.Name = "labelDatos";
-            this.labelDatos.Size = new System.Drawing.Size(97, 36);
-            this.labelDatos.TabIndex = 0;
-            this.labelDatos.Text = "label1";
             // 
             // bntAnterio
             // 
@@ -77,15 +67,29 @@
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // txtTexto
+            // 
+            this.txtTexto.BackColor = System.Drawing.Color.White;
+            this.txtTexto.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTexto.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTexto.Location = new System.Drawing.Point(259, 69);
+            this.txtTexto.Multiline = true;
+            this.txtTexto.Name = "txtTexto";
+            this.txtTexto.ReadOnly = true;
+            this.txtTexto.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtTexto.Size = new System.Drawing.Size(334, 272);
+            this.txtTexto.TabIndex = 4;
+            // 
             // Datoscuriosooi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondo;
             this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.txtTexto);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.bntAnterio);
-            this.Controls.Add(this.labelDatos);
             this.Name = "Datoscuriosooi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DATOS CURIOSO";
@@ -96,10 +100,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label labelDatos;
         private System.Windows.Forms.Button bntAnterio;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.TextBox txtTexto;
     }
 }
