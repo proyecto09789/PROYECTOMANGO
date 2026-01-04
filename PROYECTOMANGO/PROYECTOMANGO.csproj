@@ -73,17 +73,11 @@
     <Compile Include="Interfazprinc.Designer.cs">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Juegococi.cs">
+    <Compile Include="Juegomayre1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Juegococi.Designer.cs">
-      <DependentUpon>Juegococi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="juegoreceta1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="juegoreceta1.Designer.cs">
-      <DependentUpon>juegoreceta1.cs</DependentUpon>
+    <Compile Include="Juegomayre1.Designer.cs">
+      <DependentUpon>Juegomayre1.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginCreate.cs">
       <SubType>Form</SubType>
@@ -123,11 +117,8 @@
     <EmbeddedResource Include="Interfazprinc.resx">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Juegococi.resx">
-      <DependentUpon>Juegococi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="juegoreceta1.resx">
-      <DependentUpon>juegoreceta1.cs</DependentUpon>
+    <EmbeddedResource Include="Juegomayre1.resx">
+      <DependentUpon>Juegomayre1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginCreate.resx">
       <DependentUpon>LoginCreate.cs</DependentUpon>

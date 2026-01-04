@@ -302,7 +302,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+
             // 
             // ttmando0032
             // 
@@ -342,11 +342,10 @@
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.label5);
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.Recesta);
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.CerrarbtnResetGlaseadoMango);
-            this.panelrecetaGlaseadoMangJengibre.Location = new System.Drawing.Point(1, 448);
+            this.panelrecetaGlaseadoMangJengibre.Location = new System.Drawing.Point(1, 483);
             this.panelrecetaGlaseadoMangJengibre.Name = "panelrecetaGlaseadoMangJengibre";
             this.panelrecetaGlaseadoMangJengibre.Size = new System.Drawing.Size(951, 476);
             this.panelrecetaGlaseadoMangJengibre.TabIndex = 8;
-            this.panelrecetaGlaseadoMangJengibre.Paint += new System.Windows.Forms.PaintEventHandler(this.panelrecetaGlaseadoMangJengibre_Paint);
             // 
             // picturemjBox12
             // 

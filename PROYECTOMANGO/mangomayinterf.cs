@@ -1,12 +1,6 @@
 ﻿using PROYECTOMANGO;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PROYECTOBETA001
@@ -20,9 +14,6 @@ namespace PROYECTOBETA001
         {
             InitializeComponent();
         }
-
-       
-
         private void btnRecetaman_Click(object sender, EventArgs e)
         {
             
@@ -30,14 +21,6 @@ namespace PROYECTOBETA001
             paneldelusoculinario.Visible = true;
 
         }
-
-        
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void mangomayinterf_Load(object sender, EventArgs e)
 
         {
@@ -49,43 +32,31 @@ namespace PROYECTOBETA001
             panelrecetaGlaseadoMangJengibre.Location = panelOculto;
 
         }
-
         private void verresetGlaseMan_Click(object sender, EventArgs e)
         {
             panelrecetaGlaseadoMangJengibre.Location = panelVisible;
             paneldelusoculinario.Visible = false;
         }
-
         private void CerrarbtnResetGlaseadoMango_Click(object sender, EventArgs e)
         {
             panelrecetaGlaseadoMangJengibre.Location = panelOculto;
             paneldelusoculinario.Visible = true;
         }
-
         private void menuinterzaprin01_Click(object sender, EventArgs e)
         {
             Interfazprinc vent0001 = new Interfazprinc();
             vent0001.Show();
             this.Hide();
         }
-
         private void btnbenefsal_Click(object sender, EventArgs e)
         {
             
             panelBeneficios.Visible = true;
      
-
         }
-
-        private void panelrecetaGlaseadoMangJengibre_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-      
         private void btnjuegococi_Click(object sender, EventArgs e)
         {
-            btnrece24 ventjuegococi = new btnrece24();
+            Juegomayre1 ventjuegococi = new Juegomayre1();
             ventjuegococi.Show();
             this.Hide();
         }
