@@ -125,7 +125,7 @@
             // pbMango
             // 
             this.pbMango.Image = global::PROYECTOMANGO.Properties.Resources.mangocdxd;
-            this.pbMango.Location = new System.Drawing.Point(194, 64);
+            this.pbMango.Location = new System.Drawing.Point(222, 64);
             this.pbMango.Name = "pbMango";
             this.pbMango.Size = new System.Drawing.Size(181, 195);
             this.pbMango.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
