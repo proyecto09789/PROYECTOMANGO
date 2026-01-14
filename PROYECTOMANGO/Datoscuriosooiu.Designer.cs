@@ -32,6 +32,7 @@
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.txtTexto = new System.Windows.Forms.TextBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // bntAnterio
@@ -72,20 +73,33 @@
             this.txtTexto.BackColor = System.Drawing.Color.White;
             this.txtTexto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTexto.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTexto.Location = new System.Drawing.Point(259, 69);
+            this.txtTexto.Location = new System.Drawing.Point(286, 144);
             this.txtTexto.Multiline = true;
             this.txtTexto.Name = "txtTexto";
             this.txtTexto.ReadOnly = true;
             this.txtTexto.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txtTexto.Size = new System.Drawing.Size(334, 272);
+            this.txtTexto.Size = new System.Drawing.Size(334, 158);
             this.txtTexto.TabIndex = 4;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(614, 22);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(141, 42);
+            this.linkLabel1.TabIndex = 5;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Fuentes";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Datoscuriosooi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondo;
-            this.ClientSize = new System.Drawing.Size(884, 511);
+            this.ClientSize = new System.Drawing.Size(788, 511);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.txtTexto);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnSiguiente);
@@ -104,5 +118,6 @@
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.TextBox txtTexto;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

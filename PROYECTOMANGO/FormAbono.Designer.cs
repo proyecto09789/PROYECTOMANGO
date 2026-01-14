@@ -32,6 +32,7 @@
             this.btnAbono = new System.Windows.Forms.Button();
             this.pbBolsaAbono = new System.Windows.Forms.PictureBox();
             this.pbMango = new System.Windows.Forms.PictureBox();
+            this.pbAbonoCopia = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pbBolsaAbono)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMango)).BeginInit();
             this.SuspendLayout();
@@ -71,7 +72,7 @@
             // pbMango
             // 
             this.pbMango.Image = global::PROYECTOMANGO.Properties.Resources.mangocdxd;
-            this.pbMango.Location = new System.Drawing.Point(183, 63);
+            this.pbMango.Location = new System.Drawing.Point(180, 32);
             this.pbMango.Name = "pbMango";
             this.pbMango.Size = new System.Drawing.Size(186, 175);
             this.pbMango.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -79,12 +80,21 @@
             this.pbMango.TabStop = false;
             this.pbMango.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pbAbonoCopia
+            // 
+            this.pbAbonoCopia.Location = new System.Drawing.Point(180, 275);
+            this.pbAbonoCopia.Name = "pbAbonoCopia";
+            this.pbAbonoCopia.Size = new System.Drawing.Size(186, 23);
+            this.pbAbonoCopia.TabIndex = 4;
+            this.pbAbonoCopia.Value = 100;
+            // 
             // FormAbono
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.mangoFondo;
             this.ClientSize = new System.Drawing.Size(522, 450);
+            this.Controls.Add(this.pbAbonoCopia);
             this.Controls.Add(this.pbMango);
             this.Controls.Add(this.btnAbono);
             this.Controls.Add(this.pbBolsaAbono);
@@ -104,5 +114,6 @@
         private System.Windows.Forms.Button btnAbono;
         private System.Windows.Forms.PictureBox pbBolsaAbono;
         private System.Windows.Forms.PictureBox pbMango;
+        private System.Windows.Forms.ProgressBar pbAbonoCopia;
     }
 }

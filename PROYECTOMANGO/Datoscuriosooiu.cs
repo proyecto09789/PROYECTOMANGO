@@ -17,13 +17,16 @@ namespace PROYECTOBETA001
 
         string[] datos = new string[]
         {
-         "Botánicamente, el mango es una drupa. Tiene una piel fina, pulpa carnosa y un hueso grande en el centro.",
-
-         "El mango es una fruta tropical rica en vitamina A y C, esenciales para la vista y el sistema inmune.",
-
-         "Existen más de 100 variedades de mango en el mundo, con distintos colores, sabores y tamaños.",
-
-         "El mango ayuda a la digestión y aporta antioxidantes beneficiosos para la salud."
+            "El mango es una drupa: tiene pulpa, piel y una semilla grande.",
+            "El mango se cultiva desde hace más de 5,000 años en India.",
+            "La forma del mango inspiró el patrón paisley en la India.",
+            "Regalar mangos en India es un gesto de amistad.",
+            "Existe una leyenda que dice que Buda meditaba bajo un mango.",
+            "El mango está relacionado con el anacardo y el pistacho.",
+            "Partes del mango se han usado en remedios tradicionales.",
+            "El nombre científico del mango es Mangifera indica.",
+            "Una porción de mango aporta mucha vitamina C.",
+            "El mango es una de las frutas más consumidas del mundo."
         };
         public Datoscuriosooi()
         {
@@ -71,6 +74,9 @@ namespace PROYECTOBETA001
             this.Hide();
         }
 
-
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.mango.org/");
+        }
     }
 }

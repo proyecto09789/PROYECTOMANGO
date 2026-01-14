@@ -21,18 +21,32 @@ namespace PROYECTOMANGO
         string[] preguntas =
         {
             "¿Qué tipo de fruta es el mango?",
-            "¿Qué vitamina es abundante en el mango?",
-            "¿Cuántas variedades de mango existen aproximadamente?"
+            "¿Dónde se cultivó por primera vez el mango?",
+            "¿Hace cuánto se cultiva el mango?",
+            "¿Qué símbolo está inspirado en la forma del mango?",
+            "En India, regalar mangos significa:",
+            "¿Quién meditaba bajo un árbol de mango según la leyenda?",
+            "¿Con qué está relacionado el mango?",
+            "¿Qué partes del mango se usan en remedios populares?",
+            "¿Cuál es el nombre científico del mango?",
+            "¿Cuánta vitamina C aporta una porción de mango?"
         };
 
         string[,] opciones =
         {
             { "Una baya", "Una drupa", "Un cítrico" },
-            { "Vitamina C", "Vitamina D", "Vitamina B12" },
-            { "10", "Más de 100", "Solo 5" }
+            { "Brasil", "India", "México" },
+            { "500 años", "1,000 años", "Más de 5,000 años" },
+            { "El sol", "El patrón paisley", "El infinito" },
+            { "Amor", "Tristeza", "Amistad" },
+            { "Un rey", "Buda", "Un guerrero" },
+            { "Uvas y manzanas", "Anacardos y pistachos", "Fresas y arándanos" },
+            { "Solo la pulpa", "Solo la semilla", "Piel, pulpa, hojas y corteza" },
+            { "Mangifera indica", "Musa acuminata", "Citrus sinensis" },
+            { "10%", "25%", "50%" }
         };
 
-        int[] respuestasCorrectas = { 1, 0, 1 };
+        int[] respuestasCorrectas = { 1, 1, 2, 1, 2, 1, 1, 2, 0, 2 };
         public FormPreguntas()
         {
             InitializeComponent();
@@ -94,7 +108,6 @@ namespace PROYECTOMANGO
                     MessageBoxIcon.Information
                 );
 
-                // Volver al inicio
                 Interfazprinc inicio = new Interfazprinc();
                 inicio.Show();
                 this.Close();

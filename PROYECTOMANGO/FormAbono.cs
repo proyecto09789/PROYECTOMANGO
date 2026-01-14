@@ -13,6 +13,9 @@ namespace PROYECTOMANGO
 {
     public partial class FormAbono : Form
     {
+        Timer timerActualizar = new Timer();
+        int objetivo = 0;
+
         public FormAbono()
         {
             InitializeComponent();
@@ -21,7 +24,18 @@ namespace PROYECTOMANGO
 
         private void FormAbono_Load(object sender, EventArgs e)
         {
+            pbAbonoCopia.Minimum = 0;
+            pbAbonoCopia.Maximum = 100;
+            pbAbonoCopia.Step = 1;
+            pbAbonoCopia.Style = ProgressBarStyle.Continuous;
 
+            pbAbonoCopia.Value = Cuidatumango098.hambre;
+
+
+            pbMango.AllowDrop = true;
+
+            timerActualizar.Interval = 50;
+            timerActualizar.Tick += timerActualizar_Tick;
         }
 
         private void btnAbono_Click(object sender, EventArgs e)
@@ -50,6 +64,28 @@ namespace PROYECTOMANGO
         {
             if (e.Data.GetDataPresent(DataFormats.Text))
                 e.Effect = DragDropEffects.Move;
+        }
+
+        private void pbMango_DragDrop(object sender, DragEventArgs e)
+        {
+            Cuidatumango098.hambre += 20;
+
+            if (Cuidatumango098.hambre > 100)
+                Cuidatumango098.hambre = 100;
+
+            MessageBox.Show("¡El mango recibió abono!");
+        }
+
+        private void timerActualizar_Tick(object sender, EventArgs e)
+        {
+            if (pbAbonoCopia.Value < objetivo)
+            {
+                pbAbonoCopia.Value++;
+            }
+            else
+            {
+                timerActualizar.Stop();
+            }
         }
 
 

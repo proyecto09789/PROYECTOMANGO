@@ -157,6 +157,9 @@
   <data name="cuad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuad2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fondobttt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondobttt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,13 +181,16 @@
   <data name="CosechaMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CosechaMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="regadera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regadera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fondointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondointer.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mangoenslada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mangoenslada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="regaderapng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regaderapng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
