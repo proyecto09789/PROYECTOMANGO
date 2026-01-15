@@ -40,6 +40,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.texnotit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imtra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -92,7 +93,8 @@
             // 
             this.btndatcurios.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btndatcurios.BackColor = System.Drawing.Color.Firebrick;
-            this.btndatcurios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btndatcurios.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_;
+            this.btndatcurios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btndatcurios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btndatcurios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btndatcurios.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -101,7 +103,6 @@
             this.btndatcurios.Name = "btndatcurios";
             this.btndatcurios.Size = new System.Drawing.Size(187, 74);
             this.btndatcurios.TabIndex = 11;
-            this.btndatcurios.Text = "Datos Curiosos";
             this.btndatcurios.UseVisualStyleBackColor = false;
             this.btndatcurios.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -175,7 +176,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.pictureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__1_;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(131, 209);
             this.pictureBox2.Name = "pictureBox2";
@@ -185,7 +186,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.pictureBox3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(766, 209);
             this.pictureBox3.Name = "pictureBox3";
@@ -197,11 +198,23 @@
             // 
             this.pictureBox4.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__3_;
             this.pictureBox4.Location = new System.Drawing.Point(975, 209);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(187, 189);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 21;
             this.pictureBox4.TabStop = false;
+            // 
+            // texnotit
+            // 
+            this.texnotit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.texnotit.Location = new System.Drawing.Point(131, 167);
+            this.texnotit.Name = "texnotit";
+            this.texnotit.Size = new System.Drawing.Size(187, 46);
+            this.texnotit.TabIndex = 22;
+            this.texnotit.Text = "Datos Curiosos";
+            this.texnotit.UseVisualStyleBackColor = true;
             // 
             // Interfazprinc
             // 
@@ -211,6 +224,7 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1274, 579);
+            this.Controls.Add(this.texnotit);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -250,5 +264,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button texnotit;
     }
 }

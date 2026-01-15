@@ -533,6 +533,50 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (" +
+                        "1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (" +
+                        "2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (" +
+                        "3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (" +
+                        "4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Video_2 {
             get {
                 object obj = ResourceManager.GetObject("Video_2", resourceCulture);

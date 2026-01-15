@@ -306,5 +306,17 @@
   <ItemGroup>
     <None Include="Resources\SiembraMango1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %284%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
