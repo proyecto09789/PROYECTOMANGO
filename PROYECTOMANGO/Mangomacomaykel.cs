@@ -252,5 +252,10 @@ namespace PROYECTOMANGO
         {
 
         }
+
+        private void manf1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

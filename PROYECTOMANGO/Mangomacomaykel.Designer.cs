@@ -36,6 +36,18 @@
             this.manf2 = new System.Windows.Forms.PictureBox();
             this.manf0 = new System.Windows.Forms.PictureBox();
             this.btnAlimentar01 = new System.Windows.Forms.Button();
+            this.paneletapacrecimiento2 = new System.Windows.Forms.Panel();
+            this.paneletapacrecimiento3 = new System.Windows.Forms.Panel();
+            this.plantitacreceetapa3p0 = new System.Windows.Forms.PictureBox();
+            this.btnRegar03 = new System.Windows.Forms.Button();
+            this.Plantitacreceetapa3 = new System.Windows.Forms.PictureBox();
+            this.btnAlimentar03 = new System.Windows.Forms.Button();
+            this.etapa2nutri2 = new System.Windows.Forms.PictureBox();
+            this.regaretapa2 = new System.Windows.Forms.PictureBox();
+            this.btnRegar02 = new System.Windows.Forms.Button();
+            this.etapa2manf0 = new System.Windows.Forms.PictureBox();
+            this.btnAlimentar02 = new System.Windows.Forms.Button();
+            this.etapa2manf1 = new System.Windows.Forms.PictureBox();
             this.progresspbVida = new System.Windows.Forms.ProgressBar();
             this.lblEnergiaTitulo = new System.Windows.Forms.Label();
             this.pbAgua = new System.Windows.Forms.ProgressBar();
@@ -46,31 +58,19 @@
             this.lblVidaTitulo = new System.Windows.Forms.Label();
             this.lblVidaValor = new System.Windows.Forms.Label();
             this.lblNivel = new System.Windows.Forms.Label();
-            this.paneletapacrecimiento2 = new System.Windows.Forms.Panel();
-            this.etapa2nutri2 = new System.Windows.Forms.PictureBox();
-            this.regaretapa2 = new System.Windows.Forms.PictureBox();
-            this.btnRegar02 = new System.Windows.Forms.Button();
-            this.etapa2manf0 = new System.Windows.Forms.PictureBox();
-            this.btnAlimentar02 = new System.Windows.Forms.Button();
-            this.etapa2manf1 = new System.Windows.Forms.PictureBox();
             this.lblexpr = new System.Windows.Forms.Label();
-            this.paneletapacrecimiento3 = new System.Windows.Forms.Panel();
-            this.plantitacreceetapa3p0 = new System.Windows.Forms.PictureBox();
-            this.btnRegar03 = new System.Windows.Forms.Button();
-            this.Plantitacreceetapa3 = new System.Windows.Forms.PictureBox();
-            this.btnAlimentar03 = new System.Windows.Forms.Button();
             this.panelmaymas1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.manf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.manf2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.manf0)).BeginInit();
             this.paneletapacrecimiento2.SuspendLayout();
+            this.paneletapacrecimiento3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.plantitacreceetapa3p0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Plantitacreceetapa3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.etapa2nutri2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.regaretapa2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.etapa2manf0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.etapa2manf1)).BeginInit();
-            this.paneletapacrecimiento3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.plantitacreceetapa3p0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Plantitacreceetapa3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEstado0
@@ -128,17 +128,18 @@
             // 
             // manf1
             // 
-            this.manf1.Location = new System.Drawing.Point(307, 3);
+            this.manf1.Location = new System.Drawing.Point(136, 17);
             this.manf1.Name = "manf1";
             this.manf1.Size = new System.Drawing.Size(383, 339);
             this.manf1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.manf1.TabIndex = 11;
             this.manf1.TabStop = false;
             this.manf1.Visible = false;
+            this.manf1.Click += new System.EventHandler(this.manf1_Click);
             // 
             // manf2
             // 
-            this.manf2.Location = new System.Drawing.Point(114, 20);
+            this.manf2.Location = new System.Drawing.Point(84, 17);
             this.manf2.Name = "manf2";
             this.manf2.Size = new System.Drawing.Size(383, 339);
             this.manf2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -168,6 +169,151 @@
             this.btnAlimentar01.Text = "🍎 Alimentar";
             this.btnAlimentar01.UseVisualStyleBackColor = false;
             this.btnAlimentar01.Click += new System.EventHandler(this.btnAlimentar01_Click);
+            // 
+            // paneletapacrecimiento2
+            // 
+            this.paneletapacrecimiento2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.paneletapacrecimiento2.Controls.Add(this.paneletapacrecimiento3);
+            this.paneletapacrecimiento2.Controls.Add(this.etapa2nutri2);
+            this.paneletapacrecimiento2.Controls.Add(this.regaretapa2);
+            this.paneletapacrecimiento2.Controls.Add(this.btnRegar02);
+            this.paneletapacrecimiento2.Controls.Add(this.etapa2manf0);
+            this.paneletapacrecimiento2.Controls.Add(this.btnAlimentar02);
+            this.paneletapacrecimiento2.Controls.Add(this.etapa2manf1);
+            this.paneletapacrecimiento2.Location = new System.Drawing.Point(525, 3);
+            this.paneletapacrecimiento2.Name = "paneletapacrecimiento2";
+            this.paneletapacrecimiento2.Size = new System.Drawing.Size(575, 408);
+            this.paneletapacrecimiento2.TabIndex = 12;
+            this.paneletapacrecimiento2.Visible = false;
+            // 
+            // paneletapacrecimiento3
+            // 
+            this.paneletapacrecimiento3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.paneletapacrecimiento3.Controls.Add(this.plantitacreceetapa3p0);
+            this.paneletapacrecimiento3.Controls.Add(this.btnRegar03);
+            this.paneletapacrecimiento3.Controls.Add(this.Plantitacreceetapa3);
+            this.paneletapacrecimiento3.Controls.Add(this.btnAlimentar03);
+            this.paneletapacrecimiento3.Location = new System.Drawing.Point(522, 3);
+            this.paneletapacrecimiento3.Name = "paneletapacrecimiento3";
+            this.paneletapacrecimiento3.Size = new System.Drawing.Size(575, 408);
+            this.paneletapacrecimiento3.TabIndex = 23;
+            this.paneletapacrecimiento3.Visible = false;
+            // 
+            // plantitacreceetapa3p0
+            // 
+            this.plantitacreceetapa3p0.Location = new System.Drawing.Point(46, 17);
+            this.plantitacreceetapa3p0.Name = "plantitacreceetapa3p0";
+            this.plantitacreceetapa3p0.Size = new System.Drawing.Size(383, 339);
+            this.plantitacreceetapa3p0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.plantitacreceetapa3p0.TabIndex = 25;
+            this.plantitacreceetapa3p0.TabStop = false;
+            this.plantitacreceetapa3p0.Visible = false;
+            // 
+            // btnRegar03
+            // 
+            this.btnRegar03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.btnRegar03.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegar03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegar03.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.btnRegar03.Location = new System.Drawing.Point(435, 17);
+            this.btnRegar03.Name = "btnRegar03";
+            this.btnRegar03.Size = new System.Drawing.Size(130, 50);
+            this.btnRegar03.TabIndex = 24;
+            this.btnRegar03.Text = "💧 Regar";
+            this.btnRegar03.UseVisualStyleBackColor = false;
+            // 
+            // Plantitacreceetapa3
+            // 
+            this.Plantitacreceetapa3.Location = new System.Drawing.Point(46, 17);
+            this.Plantitacreceetapa3.Name = "Plantitacreceetapa3";
+            this.Plantitacreceetapa3.Size = new System.Drawing.Size(383, 339);
+            this.Plantitacreceetapa3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Plantitacreceetapa3.TabIndex = 0;
+            this.Plantitacreceetapa3.TabStop = false;
+            this.Plantitacreceetapa3.Visible = false;
+            // 
+            // btnAlimentar03
+            // 
+            this.btnAlimentar03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(150)))), ((int)(((byte)(100)))));
+            this.btnAlimentar03.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlimentar03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlimentar03.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.btnAlimentar03.Location = new System.Drawing.Point(435, 96);
+            this.btnAlimentar03.Name = "btnAlimentar03";
+            this.btnAlimentar03.Size = new System.Drawing.Size(130, 50);
+            this.btnAlimentar03.TabIndex = 24;
+            this.btnAlimentar03.Text = "🍎 Alimentar";
+            this.btnAlimentar03.UseVisualStyleBackColor = false;
+            // 
+            // etapa2nutri2
+            // 
+            this.etapa2nutri2.Location = new System.Drawing.Point(46, 17);
+            this.etapa2nutri2.Name = "etapa2nutri2";
+            this.etapa2nutri2.Size = new System.Drawing.Size(383, 339);
+            this.etapa2nutri2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.etapa2nutri2.TabIndex = 22;
+            this.etapa2nutri2.TabStop = false;
+            this.etapa2nutri2.Visible = false;
+            this.etapa2nutri2.Click += new System.EventHandler(this.etapa2nutri2_Click);
+            // 
+            // regaretapa2
+            // 
+            this.regaretapa2.Location = new System.Drawing.Point(46, 17);
+            this.regaretapa2.Name = "regaretapa2";
+            this.regaretapa2.Size = new System.Drawing.Size(383, 339);
+            this.regaretapa2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.regaretapa2.TabIndex = 22;
+            this.regaretapa2.TabStop = false;
+            this.regaretapa2.Visible = false;
+            // 
+            // btnRegar02
+            // 
+            this.btnRegar02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.btnRegar02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegar02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegar02.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.btnRegar02.Location = new System.Drawing.Point(435, 17);
+            this.btnRegar02.Name = "btnRegar02";
+            this.btnRegar02.Size = new System.Drawing.Size(130, 50);
+            this.btnRegar02.TabIndex = 14;
+            this.btnRegar02.Text = "💧 Regar";
+            this.btnRegar02.UseVisualStyleBackColor = false;
+            this.btnRegar02.Click += new System.EventHandler(this.btnRegar02_Click);
+            // 
+            // etapa2manf0
+            // 
+            this.etapa2manf0.Location = new System.Drawing.Point(46, 17);
+            this.etapa2manf0.Name = "etapa2manf0";
+            this.etapa2manf0.Size = new System.Drawing.Size(383, 339);
+            this.etapa2manf0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.etapa2manf0.TabIndex = 14;
+            this.etapa2manf0.TabStop = false;
+            this.etapa2manf0.Visible = false;
+            this.etapa2manf0.WaitOnLoad = true;
+            // 
+            // btnAlimentar02
+            // 
+            this.btnAlimentar02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(150)))), ((int)(((byte)(100)))));
+            this.btnAlimentar02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlimentar02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlimentar02.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.btnAlimentar02.Location = new System.Drawing.Point(435, 96);
+            this.btnAlimentar02.Name = "btnAlimentar02";
+            this.btnAlimentar02.Size = new System.Drawing.Size(130, 50);
+            this.btnAlimentar02.TabIndex = 15;
+            this.btnAlimentar02.Text = "🍎 Alimentar";
+            this.btnAlimentar02.UseVisualStyleBackColor = false;
+            this.btnAlimentar02.Click += new System.EventHandler(this.btnAlimentar02_Click);
+            // 
+            // etapa2manf1
+            // 
+            this.etapa2manf1.Location = new System.Drawing.Point(46, 17);
+            this.etapa2manf1.Name = "etapa2manf1";
+            this.etapa2manf1.Size = new System.Drawing.Size(383, 339);
+            this.etapa2manf1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.etapa2manf1.TabIndex = 13;
+            this.etapa2manf1.TabStop = false;
+            this.etapa2manf1.Visible = false;
             // 
             // progresspbVida
             // 
@@ -267,92 +413,6 @@
             this.lblNivel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblNivel.Click += new System.EventHandler(this.lblNivel_Click);
             // 
-            // paneletapacrecimiento2
-            // 
-            this.paneletapacrecimiento2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.paneletapacrecimiento2.Controls.Add(this.paneletapacrecimiento3);
-            this.paneletapacrecimiento2.Controls.Add(this.etapa2nutri2);
-            this.paneletapacrecimiento2.Controls.Add(this.regaretapa2);
-            this.paneletapacrecimiento2.Controls.Add(this.btnRegar02);
-            this.paneletapacrecimiento2.Controls.Add(this.etapa2manf0);
-            this.paneletapacrecimiento2.Controls.Add(this.btnAlimentar02);
-            this.paneletapacrecimiento2.Controls.Add(this.etapa2manf1);
-            this.paneletapacrecimiento2.Location = new System.Drawing.Point(525, 3);
-            this.paneletapacrecimiento2.Name = "paneletapacrecimiento2";
-            this.paneletapacrecimiento2.Size = new System.Drawing.Size(575, 408);
-            this.paneletapacrecimiento2.TabIndex = 12;
-            this.paneletapacrecimiento2.Visible = false;
-            // 
-            // etapa2nutri2
-            // 
-            this.etapa2nutri2.Location = new System.Drawing.Point(46, 17);
-            this.etapa2nutri2.Name = "etapa2nutri2";
-            this.etapa2nutri2.Size = new System.Drawing.Size(383, 339);
-            this.etapa2nutri2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.etapa2nutri2.TabIndex = 22;
-            this.etapa2nutri2.TabStop = false;
-            this.etapa2nutri2.Visible = false;
-            this.etapa2nutri2.Click += new System.EventHandler(this.etapa2nutri2_Click);
-            // 
-            // regaretapa2
-            // 
-            this.regaretapa2.Location = new System.Drawing.Point(46, 17);
-            this.regaretapa2.Name = "regaretapa2";
-            this.regaretapa2.Size = new System.Drawing.Size(383, 339);
-            this.regaretapa2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.regaretapa2.TabIndex = 22;
-            this.regaretapa2.TabStop = false;
-            this.regaretapa2.Visible = false;
-            // 
-            // btnRegar02
-            // 
-            this.btnRegar02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.btnRegar02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegar02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegar02.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.btnRegar02.Location = new System.Drawing.Point(435, 17);
-            this.btnRegar02.Name = "btnRegar02";
-            this.btnRegar02.Size = new System.Drawing.Size(130, 50);
-            this.btnRegar02.TabIndex = 14;
-            this.btnRegar02.Text = "💧 Regar";
-            this.btnRegar02.UseVisualStyleBackColor = false;
-            this.btnRegar02.Click += new System.EventHandler(this.btnRegar02_Click);
-            // 
-            // etapa2manf0
-            // 
-            this.etapa2manf0.Location = new System.Drawing.Point(46, 17);
-            this.etapa2manf0.Name = "etapa2manf0";
-            this.etapa2manf0.Size = new System.Drawing.Size(383, 339);
-            this.etapa2manf0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.etapa2manf0.TabIndex = 14;
-            this.etapa2manf0.TabStop = false;
-            this.etapa2manf0.Visible = false;
-            this.etapa2manf0.WaitOnLoad = true;
-            // 
-            // btnAlimentar02
-            // 
-            this.btnAlimentar02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(150)))), ((int)(((byte)(100)))));
-            this.btnAlimentar02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAlimentar02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlimentar02.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.btnAlimentar02.Location = new System.Drawing.Point(435, 96);
-            this.btnAlimentar02.Name = "btnAlimentar02";
-            this.btnAlimentar02.Size = new System.Drawing.Size(130, 50);
-            this.btnAlimentar02.TabIndex = 15;
-            this.btnAlimentar02.Text = "🍎 Alimentar";
-            this.btnAlimentar02.UseVisualStyleBackColor = false;
-            this.btnAlimentar02.Click += new System.EventHandler(this.btnAlimentar02_Click);
-            // 
-            // etapa2manf1
-            // 
-            this.etapa2manf1.Location = new System.Drawing.Point(46, 17);
-            this.etapa2manf1.Name = "etapa2manf1";
-            this.etapa2manf1.Size = new System.Drawing.Size(383, 339);
-            this.etapa2manf1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.etapa2manf1.TabIndex = 13;
-            this.etapa2manf1.TabStop = false;
-            this.etapa2manf1.Visible = false;
-            // 
             // lblexpr
             // 
             this.lblexpr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(200)))));
@@ -364,65 +424,6 @@
             this.lblexpr.TabIndex = 14;
             this.lblexpr.Text = "Experiencia: 0/100";
             this.lblexpr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // paneletapacrecimiento3
-            // 
-            this.paneletapacrecimiento3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.paneletapacrecimiento3.Controls.Add(this.plantitacreceetapa3p0);
-            this.paneletapacrecimiento3.Controls.Add(this.btnRegar03);
-            this.paneletapacrecimiento3.Controls.Add(this.Plantitacreceetapa3);
-            this.paneletapacrecimiento3.Controls.Add(this.btnAlimentar03);
-            this.paneletapacrecimiento3.Location = new System.Drawing.Point(522, 3);
-            this.paneletapacrecimiento3.Name = "paneletapacrecimiento3";
-            this.paneletapacrecimiento3.Size = new System.Drawing.Size(575, 408);
-            this.paneletapacrecimiento3.TabIndex = 23;
-            this.paneletapacrecimiento3.Visible = false;
-            // 
-            // plantitacreceetapa3p0
-            // 
-            this.plantitacreceetapa3p0.Location = new System.Drawing.Point(46, 17);
-            this.plantitacreceetapa3p0.Name = "plantitacreceetapa3p0";
-            this.plantitacreceetapa3p0.Size = new System.Drawing.Size(383, 339);
-            this.plantitacreceetapa3p0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.plantitacreceetapa3p0.TabIndex = 25;
-            this.plantitacreceetapa3p0.TabStop = false;
-            this.plantitacreceetapa3p0.Visible = false;
-            // 
-            // btnRegar03
-            // 
-            this.btnRegar03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.btnRegar03.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegar03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegar03.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.btnRegar03.Location = new System.Drawing.Point(435, 17);
-            this.btnRegar03.Name = "btnRegar03";
-            this.btnRegar03.Size = new System.Drawing.Size(130, 50);
-            this.btnRegar03.TabIndex = 24;
-            this.btnRegar03.Text = "💧 Regar";
-            this.btnRegar03.UseVisualStyleBackColor = false;
-            // 
-            // Plantitacreceetapa3
-            // 
-            this.Plantitacreceetapa3.Location = new System.Drawing.Point(46, 17);
-            this.Plantitacreceetapa3.Name = "Plantitacreceetapa3";
-            this.Plantitacreceetapa3.Size = new System.Drawing.Size(383, 339);
-            this.Plantitacreceetapa3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Plantitacreceetapa3.TabIndex = 0;
-            this.Plantitacreceetapa3.TabStop = false;
-            this.Plantitacreceetapa3.Visible = false;
-            // 
-            // btnAlimentar03
-            // 
-            this.btnAlimentar03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(150)))), ((int)(((byte)(100)))));
-            this.btnAlimentar03.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAlimentar03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlimentar03.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.btnAlimentar03.Location = new System.Drawing.Point(435, 96);
-            this.btnAlimentar03.Name = "btnAlimentar03";
-            this.btnAlimentar03.Size = new System.Drawing.Size(130, 50);
-            this.btnAlimentar03.TabIndex = 24;
-            this.btnAlimentar03.Text = "🍎 Alimentar";
-            this.btnAlimentar03.UseVisualStyleBackColor = false;
             // 
             // Mangomacomaykel
             // 
@@ -450,13 +451,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.manf2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.manf0)).EndInit();
             this.paneletapacrecimiento2.ResumeLayout(false);
+            this.paneletapacrecimiento3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.plantitacreceetapa3p0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Plantitacreceetapa3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.etapa2nutri2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.regaretapa2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.etapa2manf0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.etapa2manf1)).EndInit();
-            this.paneletapacrecimiento3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.plantitacreceetapa3p0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Plantitacreceetapa3)).EndInit();
             this.ResumeLayout(false);
 
         }
