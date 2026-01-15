@@ -36,9 +36,6 @@
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\..\OneDrive\Documentos\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data %281%29">
-      <HintPath>..\..\..\..\Downloads\MySql.Data (1).dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -73,30 +70,6 @@
     </Compile>
     <Compile Include="Datoscuriosooiu.Designer.cs">
       <DependentUpon>Datoscuriosooiu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cuidatumango098.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cuidatumango098.Designer.cs">
-      <DependentUpon>Cuidatumango098.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormAbono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAbono.Designer.cs">
-      <DependentUpon>FormAbono.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormAgua.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAgua.Designer.cs">
-      <DependentUpon>FormAgua.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormPreguntas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormPreguntas.Designer.cs">
-      <DependentUpon>FormPreguntas.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfazprinc.cs">
       <SubType>Form</SubType>
@@ -145,18 +118,6 @@
     <EmbeddedResource Include="Datoscuriosooiu.resx">
       <DependentUpon>Datoscuriosooiu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cuidatumango098.resx">
-      <DependentUpon>Cuidatumango098.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAbono.resx">
-      <DependentUpon>FormAbono.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAgua.resx">
-      <DependentUpon>FormAgua.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPreguntas.resx">
-      <DependentUpon>FormPreguntas.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Interfazprinc.resx">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,19 +137,19 @@
       <DependentUpon>ProcProductivo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -341,6 +302,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Coffee Please %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SiembraMango1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

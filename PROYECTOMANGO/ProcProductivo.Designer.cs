@@ -185,7 +185,7 @@
             this.panelSiembra.Controls.Add(this.label4);
             this.panelSiembra.Controls.Add(this.bttSiguiente1);
             this.panelSiembra.Controls.Add(this.bttVolverHome);
-            this.panelSiembra.Location = new System.Drawing.Point(1, 0);
+            this.panelSiembra.Location = new System.Drawing.Point(0, 1);
             this.panelSiembra.Name = "panelSiembra";
             this.panelSiembra.Size = new System.Drawing.Size(884, 511);
             this.panelSiembra.TabIndex = 14;
@@ -201,7 +201,7 @@
             this.panel2Siembra.Controls.Add(this.bttSig2);
             this.panel2Siembra.Controls.Add(this.bttRegresar1);
             this.panel2Siembra.Controls.Add(this.label13);
-            this.panel2Siembra.Location = new System.Drawing.Point(0, 0);
+            this.panel2Siembra.Location = new System.Drawing.Point(3, 0);
             this.panel2Siembra.Name = "panel2Siembra";
             this.panel2Siembra.Size = new System.Drawing.Size(884, 511);
             this.panel2Siembra.TabIndex = 12;

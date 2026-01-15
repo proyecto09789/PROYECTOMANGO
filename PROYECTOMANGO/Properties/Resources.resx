@@ -121,6 +121,15 @@
   <data name="pepa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pepa1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dfg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dfg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de pantalla 2025-12-21 182447" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2025-12-21 182447.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SiembraMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SiembraMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="abono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abono.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -129,9 +138,6 @@
   </data>
   <data name="mangoFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mangoFondo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Coffee Please (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coffee Please (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondointer.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,11 +148,14 @@
   <data name="Diseño sin título" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cr2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="semillaabi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\semillaabi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regarsemilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regarsemilla.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,20 +172,17 @@
   <data name="Diseño sin título (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="semillaabierta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\semillaabierta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="botnconf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botnconf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura de pantalla 2025-12-21 180116" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2025-12-21 180116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mangoFondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mangoFondo1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,8 +190,8 @@
   <data name="Coffee Please (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cr2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="echarnutri2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\echarnutri2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +208,8 @@
   <data name="mangocap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mangocap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Coffee Please (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coffee Please (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mangoenslada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mangoenslada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondobttt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondobttt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,35 +217,38 @@
   <data name="Diseño sin título (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Coffee Please (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coffee Please (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Hecharpronutri" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hecharpronutri.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mangoFondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mangoFondo1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2025-12-21 180116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2025-12-21 180116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Video_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Video_2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CosechaMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CosechaMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Coffee Please (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coffee Please (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="regeta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\regeta2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FloracionMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FloracionMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Coffee Please (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="regaderapng" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\regaderapng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Coffee Please (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coffee Please (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dfg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dfg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="semillaabi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\semillaabi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CosechaMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CosechaMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mango.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,7 +259,7 @@
   <data name="cuad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuad2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Coffee Please (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coffee Please (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SiembraMango1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SiembraMango1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
