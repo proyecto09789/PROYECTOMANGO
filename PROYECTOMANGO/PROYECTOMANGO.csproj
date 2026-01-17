@@ -397,5 +397,8 @@
   <ItemGroup>
     <None Include="Resources\PANTALLADECARGA.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INICIOSISIÓNEXTISOSO.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

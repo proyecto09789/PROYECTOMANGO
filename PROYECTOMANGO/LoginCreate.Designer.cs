@@ -38,7 +38,9 @@
             this.relleno2 = new System.Windows.Forms.Label();
             this.relleno1 = new System.Windows.Forms.Label();
             this.fonNombre = new System.Windows.Forms.PictureBox();
+            this.INICIOEXITOSOFOTO = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.fonNombre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.INICIOEXITOSOFOTO)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUsername
@@ -159,14 +161,26 @@
             // 
             // fonNombre
             // 
+            this.fonNombre.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fonNombre.Image = global::PROYECTOMANGO.Properties.Resources.PANTALLADECARGA;
-            this.fonNombre.Location = new System.Drawing.Point(2, 669);
+            this.fonNombre.Location = new System.Drawing.Point(0, 0);
             this.fonNombre.Name = "fonNombre";
-            this.fonNombre.Size = new System.Drawing.Size(1370, 213);
+            this.fonNombre.Size = new System.Drawing.Size(1370, 749);
             this.fonNombre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fonNombre.TabIndex = 10;
             this.fonNombre.TabStop = false;
             this.fonNombre.Visible = false;
+            // 
+            // INICIOEXITOSOFOTO
+            // 
+            this.INICIOEXITOSOFOTO.Image = global::PROYECTOMANGO.Properties.Resources.INICIOSISIÓNEXTISOSO;
+            this.INICIOEXITOSOFOTO.Location = new System.Drawing.Point(445, 255);
+            this.INICIOEXITOSOFOTO.Name = "INICIOEXITOSOFOTO";
+            this.INICIOEXITOSOFOTO.Size = new System.Drawing.Size(503, 330);
+            this.INICIOEXITOSOFOTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.INICIOEXITOSOFOTO.TabIndex = 11;
+            this.INICIOEXITOSOFOTO.TabStop = false;
+            this.INICIOEXITOSOFOTO.Visible = false;
             // 
             // LoginForm
             // 
@@ -177,6 +191,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.fonNombre);
+            this.Controls.Add(this.INICIOEXITOSOFOTO);
             this.Controls.Add(this.relleno1);
             this.Controls.Add(this.relleno2);
             this.Controls.Add(this.relleno3);
@@ -192,6 +207,7 @@
             this.Text = "Login";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fonNombre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.INICIOEXITOSOFOTO)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,6 +224,7 @@
         private System.Windows.Forms.Label relleno2;
         private System.Windows.Forms.Label relleno1;
         private System.Windows.Forms.PictureBox fonNombre;
+        private System.Windows.Forms.PictureBox INICIOEXITOSOFOTO;
     }
 }
 

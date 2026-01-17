@@ -50,7 +50,7 @@ namespace PROYECTOBETA001
                     }
                     MyConn2.Close();
 
-                    MessageBox.Show("Login Successful!");
+                    INICIOEXITOSOFOTO.Visible = true;
 
                     fonNombre.Visible = true;
 
@@ -154,11 +154,15 @@ namespace PROYECTOBETA001
                     }
                     MyConn2.Close();
 
-                    MessageBox.Show("Login Successful!");
+                    INICIOEXITOSOFOTO.Visible = true;
+
+                    await Task.Delay(2000);
+
+                    INICIOEXITOSOFOTO.Visible = false;
 
                     fonNombre.Visible = true;
 
-                    await Task.Delay(2000);
+                    await Task.Delay(4000);
                     this.Hide();
                     Interfazprinc frm2 = new Interfazprinc();
                     frm2.ShowDialog();
