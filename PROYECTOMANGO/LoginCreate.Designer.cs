@@ -105,9 +105,9 @@
             this.btnLogin1.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin1.Location = new System.Drawing.Point(434, 499);
+            this.btnLogin1.Location = new System.Drawing.Point(434, 500);
             this.btnLogin1.Name = "btnLogin1";
-            this.btnLogin1.Size = new System.Drawing.Size(226, 103);
+            this.btnLogin1.Size = new System.Drawing.Size(226, 102);
             this.btnLogin1.TabIndex = 2;
             this.btnLogin1.Text = "Iniciar Sesión";
             this.btnLogin1.UseVisualStyleBackColor = false;
@@ -149,21 +149,20 @@
             // 
             this.relleno1.AutoSize = true;
             this.relleno1.BackColor = System.Drawing.Color.Transparent;
-            this.relleno1.Location = new System.Drawing.Point(443, 482);
+            this.relleno1.Location = new System.Drawing.Point(422, 483);
             this.relleno1.Name = "relleno1";
-            this.relleno1.Size = new System.Drawing.Size(499, 26);
+            this.relleno1.Size = new System.Drawing.Size(511, 26);
             this.relleno1.TabIndex = 8;
             this.relleno1.Text = "\r\n                                                                               " +
     "                                                                                " +
-    "     ";
+    "         ";
             // 
             // fonNombre
             // 
-            this.fonNombre.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fonNombre.Image = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__5_;
-            this.fonNombre.Location = new System.Drawing.Point(0, 0);
+            this.fonNombre.Image = global::PROYECTOMANGO.Properties.Resources.PANTALLADECARGA;
+            this.fonNombre.Location = new System.Drawing.Point(2, 669);
             this.fonNombre.Name = "fonNombre";
-            this.fonNombre.Size = new System.Drawing.Size(1370, 749);
+            this.fonNombre.Size = new System.Drawing.Size(1370, 213);
             this.fonNombre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fonNombre.TabIndex = 10;
             this.fonNombre.TabStop = false;
@@ -174,7 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__3_;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDOINTERFAACTUALIZADO;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.fonNombre);

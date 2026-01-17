@@ -373,6 +373,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap FONDO_INTERFAZ {
+            get {
+                object obj = ResourceManager.GetObject("FONDO INTERFAZ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap fondobttt1 {
             get {
                 object obj = ResourceManager.GetObject("fondobttt1", resourceCulture);
@@ -386,6 +396,26 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap fondointer {
             get {
                 object obj = ResourceManager.GetObject("fondointer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap FONDOINTERFAACTUALIZADO {
+            get {
+                object obj = ResourceManager.GetObject("FONDOINTERFAACTUALIZADO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap FONDOLONGI {
+            get {
+                object obj = ResourceManager.GetObject("FONDOLONGI", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,6 +446,56 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap Hecharpronutri {
             get {
                 object obj = ResourceManager.GetObject("Hecharpronutri", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap INCONOCUIDATUMANGO {
+            get {
+                object obj = ResourceManager.GetObject("INCONOCUIDATUMANGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap INCONODEDATODCURIOSO {
+            get {
+                object obj = ResourceManager.GetObject("INCONODEDATODCURIOSO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap INCONODETRANSPORTEYVENTA {
+            get {
+                object obj = ResourceManager.GetObject("INCONODETRANSPORTEYVENTA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap INCONOPROCESOPRODUCTIVO {
+            get {
+                object obj = ResourceManager.GetObject("INCONOPROCESOPRODUCTIVO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap INCONOUSOCULINARIOYBENEFICIO {
+            get {
+                object obj = ResourceManager.GetObject("INCONOUSOCULINARIOYBENEFICIO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +556,16 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap mangoFondo1 {
             get {
                 object obj = ResourceManager.GetObject("mangoFondo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap PANTALLADECARGA {
+            get {
+                object obj = ResourceManager.GetObject("PANTALLADECARGA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -684,6 +774,56 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap transporte_y_venta {
             get {
                 object obj = ResourceManager.GetObject("transporte y venta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap TUTULOINCONOCUIGATUMANGO {
+            get {
+                object obj = ResourceManager.GetObject("TUTULOINCONOCUIGATUMANGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap TUTULOINCONODATOSCURISOS {
+            get {
+                object obj = ResourceManager.GetObject("TUTULOINCONODATOSCURISOS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap TUTULOINCONOPROCESOPRODUCTIVO {
+            get {
+                object obj = ResourceManager.GetObject("TUTULOINCONOPROCESOPRODUCTIVO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap TUTULOINCONOTRANSPORTEYVENTAS {
+            get {
+                object obj = ResourceManager.GetObject("TUTULOINCONOTRANSPORTEYVENTAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap TUTULOINCONOUSOSCULINARIOSYBENEFICIOS {
+            get {
+                object obj = ResourceManager.GetObject("TUTULOINCONOUSOSCULINARIOSYBENEFICIOS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

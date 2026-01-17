@@ -35,28 +35,28 @@ namespace PROYECTOBETA001
             this.transpvent = new System.Windows.Forms.Button();
             this.Usocunl12 = new System.Windows.Forms.Button();
             this.Btnproduc = new System.Windows.Forms.Button();
-            this.imtra = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.imagenfondointerfaz = new System.Windows.Forms.PictureBox();
-            this.titelprdu = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.imtra)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagenfondointerfaz)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.titelprdu = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imtra = new System.Windows.Forms.PictureBox();
+            this.imagenfondointerfaz = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.titelprdu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imtra)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenfondointerfaz)).BeginInit();
             this.SuspendLayout();
             // 
             // mascotMango
@@ -69,7 +69,7 @@ namespace PROYECTOBETA001
             this.mascotMango.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.mascotMango.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mascotMango.ForeColor = System.Drawing.Color.Khaki;
-            this.mascotMango.Location = new System.Drawing.Point(948, 468);
+            this.mascotMango.Location = new System.Drawing.Point(1053, 468);
             this.mascotMango.Name = "mascotMango";
             this.mascotMango.Size = new System.Drawing.Size(187, 74);
             this.mascotMango.TabIndex = 16;
@@ -145,122 +145,21 @@ namespace PROYECTOBETA001
             this.Btnproduc.UseVisualStyleBackColor = false;
             this.Btnproduc.Click += new System.EventHandler(this.button1_Click);
             // 
-            // imtra
+            // pictureBox8
             // 
-            this.imtra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.imtra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
-            this.imtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imtra.Location = new System.Drawing.Point(280, 291);
-            this.imtra.Name = "imtra";
-            this.imtra.Size = new System.Drawing.Size(224, 251);
-            this.imtra.TabIndex = 17;
-            this.imtra.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__10_;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(526, 291);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 251);
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__1_;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(37, 291);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(224, 251);
-            this.pictureBox2.TabIndex = 19;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(770, 291);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(224, 251);
-            this.pictureBox3.TabIndex = 20;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__3_;
-            this.pictureBox4.Location = new System.Drawing.Point(1016, 291);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(224, 251);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 21;
-            this.pictureBox4.TabStop = false;
-            // 
-            // imagenfondointerfaz
-            // 
-            this.imagenfondointerfaz.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__6_;
-            this.imagenfondointerfaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imagenfondointerfaz.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imagenfondointerfaz.Location = new System.Drawing.Point(0, 0);
-            this.imagenfondointerfaz.Name = "imagenfondointerfaz";
-            this.imagenfondointerfaz.Size = new System.Drawing.Size(1274, 660);
-            this.imagenfondointerfaz.TabIndex = 27;
-            this.imagenfondointerfaz.TabStop = false;
-            // 
-            // titelprdu
-            // 
-            this.titelprdu.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
-            this.titelprdu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.titelprdu.Location = new System.Drawing.Point(37, 209);
-            this.titelprdu.Name = "titelprdu";
-            this.titelprdu.Size = new System.Drawing.Size(224, 90);
-            this.titelprdu.TabIndex = 28;
-            this.titelprdu.TabStop = false;
-            this.titelprdu.Click += new System.EventHandler(this.titelprdu_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Image = global::PROYECTOMANGO.Properties.Resources.transporte_y_venta;
-            this.pictureBox5.Location = new System.Drawing.Point(280, 209);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(224, 90);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 29;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Image = global::PROYECTOMANGO.Properties.Resources.Usos_Culinarios_y_Beneficios;
-            this.pictureBox6.Location = new System.Drawing.Point(526, 206);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(224, 90);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 30;
-            this.pictureBox6.TabStop = false;
+            this.pictureBox8.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOCUIGATUMANGO;
+            this.pictureBox8.Location = new System.Drawing.Point(1016, 206);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(224, 90);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 32;
+            this.pictureBox8.TabStop = false;
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Proceso_Productivo;
+            this.pictureBox7.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOPROCESOPRODUCTIVO;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Image = global::PROYECTOMANGO.Properties.Resources.Proceso_Productivo;
             this.pictureBox7.Location = new System.Drawing.Point(770, 209);
@@ -271,17 +170,124 @@ namespace PROYECTOBETA001
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // pictureBox8
+            // pictureBox6
             // 
-            this.pictureBox8.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Image = global::PROYECTOMANGO.Properties.Resources.Cuieda_tu_mango;
-            this.pictureBox8.Location = new System.Drawing.Point(1016, 206);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(224, 90);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 32;
-            this.pictureBox8.TabStop = false;
+            this.pictureBox6.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOUSOSCULINARIOSYBENEFICIOS;
+            this.pictureBox6.Location = new System.Drawing.Point(526, 206);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(224, 90);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 30;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOTRANSPORTEYVENTAS;
+            this.pictureBox5.Location = new System.Drawing.Point(280, 209);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(224, 90);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 29;
+            this.pictureBox5.TabStop = false;
+            // 
+            // titelprdu
+            // 
+            this.titelprdu.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__7_;
+            this.titelprdu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.titelprdu.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONODATOSCURISOS;
+            this.titelprdu.Location = new System.Drawing.Point(37, 209);
+            this.titelprdu.Name = "titelprdu";
+            this.titelprdu.Size = new System.Drawing.Size(224, 90);
+            this.titelprdu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.titelprdu.TabIndex = 28;
+            this.titelprdu.TabStop = false;
+            this.titelprdu.Click += new System.EventHandler(this.titelprdu_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.INCONOCUIDATUMANGO;
+            this.pictureBox4.Location = new System.Drawing.Point(1016, 291);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(224, 251);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 21;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Image = global::PROYECTOMANGO.Properties.Resources.INCONOPROCESOPRODUCTIVO;
+            this.pictureBox3.Location = new System.Drawing.Point(770, 291);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(224, 251);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 20;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.INCONODEDATODCURIOSO;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(37, 291);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(224, 251);
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__10_;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.INCONOUSOCULINARIOYBENEFICIO;
+            this.pictureBox1.Location = new System.Drawing.Point(526, 291);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(224, 251);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
+            // imtra
+            // 
+            this.imtra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imtra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.INCONODETRANSPORTEYVENTA;
+            this.imtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imtra.Location = new System.Drawing.Point(280, 291);
+            this.imtra.Name = "imtra";
+            this.imtra.Size = new System.Drawing.Size(224, 251);
+            this.imtra.TabIndex = 17;
+            this.imtra.TabStop = false;
+            // 
+            // imagenfondointerfaz
+            // 
+            this.imagenfondointerfaz.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDO_INTERFAZ;
+            this.imagenfondointerfaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imagenfondointerfaz.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.imagenfondointerfaz.Location = new System.Drawing.Point(0, 0);
+            this.imagenfondointerfaz.Name = "imagenfondointerfaz";
+            this.imagenfondointerfaz.Size = new System.Drawing.Size(1274, 660);
+            this.imagenfondointerfaz.TabIndex = 27;
+            this.imagenfondointerfaz.TabStop = false;
             // 
             // Interfazprinc
             // 
@@ -310,17 +316,17 @@ namespace PROYECTOBETA001
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Interfazprinc";
             this.Load += new System.EventHandler(this.Interfazprinc_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.imtra)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagenfondointerfaz)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.titelprdu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imtra)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenfondointerfaz)).EndInit();
             this.ResumeLayout(false);
 
         }

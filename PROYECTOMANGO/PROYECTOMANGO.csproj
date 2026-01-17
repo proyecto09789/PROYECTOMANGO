@@ -355,5 +355,47 @@
   <ItemGroup>
     <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %281%291.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO INTERFAZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INCONODEDATODCURIOSO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INCONOPROCESOPRODUCTIVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INCONOCUIDATUMANGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INCONODETRANSPORTEYVENTA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INCONOUSOCULINARIOYBENEFICIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTULOINCONOCUIGATUMANGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTULOINCONOPROCESOPRODUCTIVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTULOINCONODATOSCURISOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTULOINCONOTRANSPORTEYVENTAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TUTULOINCONOUSOSCULINARIOSYBENEFICIOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDOLONGI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDOINTERFAACTUALIZADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PANTALLADECARGA.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
