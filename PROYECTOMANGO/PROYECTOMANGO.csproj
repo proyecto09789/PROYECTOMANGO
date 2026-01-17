@@ -72,6 +72,7 @@
     <Compile Include="Datoscuriosooiu.Designer.cs">
       <DependentUpon>Datoscuriosooiu.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameState.cs" />
     <Compile Include="Interfazprinc.cs">
       <SubType>Form</SubType>
     </Compile>

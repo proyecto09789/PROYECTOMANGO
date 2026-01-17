@@ -40,6 +40,8 @@ namespace PROYECTOBETA001
             this.fotodatocuriso1 = new System.Windows.Forms.PictureBox();
             this.fotousoculinario1 = new System.Windows.Forms.PictureBox();
             this.imtra = new System.Windows.Forms.PictureBox();
+            this.progressVidaMascota = new System.Windows.Forms.ProgressBar();
+            this.lblVidaMascota = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.titelprdu4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titelprdu3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titelprdu2)).BeginInit();
@@ -187,6 +189,24 @@ namespace PROYECTOBETA001
             this.imtra.TabIndex = 17;
             this.imtra.TabStop = false;
             // 
+            // progressVidaMascota
+            // 
+            this.progressVidaMascota.Location = new System.Drawing.Point(1016, 32);
+            this.progressVidaMascota.Name = "progressVidaMascota";
+            this.progressVidaMascota.Size = new System.Drawing.Size(224, 20);
+            this.progressVidaMascota.TabIndex = 33;
+            this.progressVidaMascota.Value = 100;
+            // 
+            // lblVidaMascota
+            // 
+            this.lblVidaMascota.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.lblVidaMascota.Location = new System.Drawing.Point(1016, 9);
+            this.lblVidaMascota.Name = "lblVidaMascota";
+            this.lblVidaMascota.Size = new System.Drawing.Size(224, 20);
+            this.lblVidaMascota.TabIndex = 34;
+            this.lblVidaMascota.Text = "Vida de tu Mangito: 100";
+            this.lblVidaMascota.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Interfazprinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -204,6 +224,8 @@ namespace PROYECTOBETA001
             this.Controls.Add(this.titelprdu2);
             this.Controls.Add(this.titelprdu);
             this.Controls.Add(this.imtra);
+            this.Controls.Add(this.progressVidaMascota);
+            this.Controls.Add(this.lblVidaMascota);
             this.Controls.Add(this.titelprdu1);
             this.Name = "Interfazprinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -233,5 +255,7 @@ namespace PROYECTOBETA001
         private System.Windows.Forms.PictureBox titelprdu2;
         private System.Windows.Forms.PictureBox titelprdu3;
         private System.Windows.Forms.PictureBox titelprdu4;
+        private System.Windows.Forms.ProgressBar progressVidaMascota;
+        private System.Windows.Forms.Label lblVidaMascota;
     }
 }

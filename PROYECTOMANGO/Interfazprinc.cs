@@ -21,10 +21,55 @@ namespace PROYECTOBETA001
         {
             InitializeComponent();
 
+            // Suscribirse al estado global para mostrar la vida de la mascota
+            GameState.Instance.StateChanged += GameState_StateChanged;
+            this.FormClosed += Interfazprinc_FormClosed;
 
+            UpdateVidaUI();
         }
 
-      
+        private void Interfazprinc_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Desuscribir para evitar fugas de memoria
+            GameState.Instance.StateChanged -= GameState_StateChanged;
+        }
+
+        // Handler invocado desde GameState (puede venir desde un hilo no-UI)
+        private void GameState_StateChanged(object sender, EventArgs e)
+        {
+            if (this.InvokeRequired)
+            {
+                this.BeginInvoke((MethodInvoker)UpdateVidaUI);
+            }
+            else
+            {
+                UpdateVidaUI();
+            }
+        }
+
+        // Actualiza la barra y la etiqueta con la vida actual
+        private void UpdateVidaUI()
+        {
+            try
+            {
+                var vida = GameState.Instance.Vida;
+                if (progressVidaMascota != null)
+                {
+                    progressVidaMascota.Value = Math.Max(0, Math.Min(100, vida));
+                }
+
+                if (lblVidaMascota != null)
+                {
+                    lblVidaMascota.Text = "Vida de tu Mangito: " + vida;
+                }
+            }
+            catch
+            {
+                // Ignorar errores durante diseño o si los controles no existen aún
+            }
+        }
+
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
