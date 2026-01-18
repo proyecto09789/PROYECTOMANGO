@@ -166,6 +166,7 @@ namespace PROYECTOMANGO
             panelmay4.Visible = false;    // Oculta el panel
             panelmay5.Visible = false;    // Vuelve a mostrar el panel
             panelmay9.Visible = true;
+            panelmay9.Location = new Point(38, 98);
             lblnumpre.Text = $"{preguntaActual + 1}";
 
         }
@@ -356,6 +357,7 @@ namespace PROYECTOMANGO
             panelmay4.Visible = false;    // Oculta el panel
             panelmay5.Visible = false;    // Vuelve a mostrar el panel
             panelmay9.Visible = true;
+            panelmay9.Location = new Point(38, 98);
             lblnumpre.Text = $"{preguntaActual + 1}";
 
         }
@@ -376,6 +378,7 @@ namespace PROYECTOMANGO
             panelmay4.Visible = false;    // Oculta el panel
             panelmay5.Visible = false;    // Vuelve a mostrar el panel
             panelmay9.Visible = true;
+            panelmay9.Location = new Point(38, 98);
             lblnumpre.Text = $"{preguntaActual + 1}";
         }
 
@@ -396,6 +399,7 @@ namespace PROYECTOMANGO
             panelmay4.Visible = false;    // Oculta el panel
             panelmay5.Visible = false;    // Vuelve a mostrar el panel
             panelmay9.Visible = true;
+            panelmay9.Location = new Point(38, 98);
             lblnumpre.Text = $"{preguntaActual + 1}";
         }
         private async void btnopm5_Click(object sender, EventArgs e)
@@ -506,6 +510,13 @@ namespace PROYECTOMANGO
             mangomayinterf ventm2 = new mangomayinterf();
             ventm2.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panelmay1.Location = new Point(38, 98);
+            panelcomenzar1.Visible = false;
+
         }
     }
 }
