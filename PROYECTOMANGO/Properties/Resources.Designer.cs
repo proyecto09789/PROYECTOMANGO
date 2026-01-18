@@ -363,6 +363,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap FINALTEST {
+            get {
+                object obj = ResourceManager.GetObject("FINALTEST", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap FloracionMango {
             get {
                 object obj = ResourceManager.GetObject("FloracionMango", resourceCulture);

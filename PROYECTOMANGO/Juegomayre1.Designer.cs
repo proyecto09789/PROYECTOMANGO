@@ -37,13 +37,11 @@
             this.btnopm5 = new System.Windows.Forms.Button();
             this.labelmay6 = new System.Windows.Forms.Label();
             this.panelmay9 = new System.Windows.Forms.Panel();
+            this.JUGARDNUEV0 = new System.Windows.Forms.Label();
+            this.lblNivel = new System.Windows.Forms.Label();
             this.repuestacorrctmay1 = new System.Windows.Forms.Label();
             this.labelmay10 = new System.Windows.Forms.Label();
             this.lblResultadoFinal1 = new System.Windows.Forms.Label();
-            this.btnmenujuego = new System.Windows.Forms.Button();
-            this.labelmay2 = new System.Windows.Forms.Label();
-            this.lblNivel = new System.Windows.Forms.Label();
-            this.btnmayReiniciar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelcorrect2 = new System.Windows.Forms.Label();
             this.labelpuntuación = new System.Windows.Forms.Label();
@@ -78,6 +76,7 @@
             this.btnopm14 = new System.Windows.Forms.Button();
             this.btnopm13 = new System.Windows.Forms.Button();
             this.labelmay8 = new System.Windows.Forms.Label();
+            this.REGRESARME23 = new System.Windows.Forms.Label();
             this.panelfinalmay1.SuspendLayout();
             this.panelmay2.SuspendLayout();
             this.panelmay9.SuspendLayout();
@@ -99,7 +98,7 @@
             this.panelfinalmay1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelfinalmay1.Location = new System.Drawing.Point(0, 0);
             this.panelfinalmay1.Name = "panelfinalmay1";
-            this.panelfinalmay1.Size = new System.Drawing.Size(982, 549);
+            this.panelfinalmay1.Size = new System.Drawing.Size(986, 549);
             this.panelfinalmay1.TabIndex = 0;
             // 
             // panelmay2
@@ -186,14 +185,15 @@
             // 
             // panelmay9
             // 
-            this.panelmay9.BackColor = System.Drawing.Color.LightGreen;
+            this.panelmay9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelmay9.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FINALTEST;
+            this.panelmay9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelmay9.Controls.Add(this.REGRESARME23);
+            this.panelmay9.Controls.Add(this.JUGARDNUEV0);
+            this.panelmay9.Controls.Add(this.lblNivel);
             this.panelmay9.Controls.Add(this.repuestacorrctmay1);
             this.panelmay9.Controls.Add(this.labelmay10);
             this.panelmay9.Controls.Add(this.lblResultadoFinal1);
-            this.panelmay9.Controls.Add(this.btnmenujuego);
-            this.panelmay9.Controls.Add(this.labelmay2);
-            this.panelmay9.Controls.Add(this.lblNivel);
-            this.panelmay9.Controls.Add(this.btnmayReiniciar);
             this.panelmay9.Location = new System.Drawing.Point(34, 95);
             this.panelmay9.Margin = new System.Windows.Forms.Padding(2);
             this.panelmay9.Name = "panelmay9";
@@ -202,9 +202,33 @@
             this.panelmay9.Visible = false;
             this.panelmay9.Paint += new System.Windows.Forms.PaintEventHandler(this.panelmay9_Paint);
             // 
+            // JUGARDNUEV0
+            // 
+            this.JUGARDNUEV0.BackColor = System.Drawing.Color.Transparent;
+            this.JUGARDNUEV0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.JUGARDNUEV0.Location = new System.Drawing.Point(363, 261);
+            this.JUGARDNUEV0.Name = "JUGARDNUEV0";
+            this.JUGARDNUEV0.Size = new System.Drawing.Size(198, 54);
+            this.JUGARDNUEV0.TabIndex = 7;
+            this.JUGARDNUEV0.Click += new System.EventHandler(this.JUGARDNUEV0_Click);
+            // 
+            // lblNivel
+            // 
+            this.lblNivel.BackColor = System.Drawing.Color.Transparent;
+            this.lblNivel.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
+            this.lblNivel.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblNivel.Location = new System.Drawing.Point(232, 212);
+            this.lblNivel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNivel.Name = "lblNivel";
+            this.lblNivel.Size = new System.Drawing.Size(444, 49);
+            this.lblNivel.TabIndex = 1;
+            this.lblNivel.Text = "Nivel";
+            this.lblNivel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // repuestacorrctmay1
             // 
             this.repuestacorrctmay1.AutoSize = true;
+            this.repuestacorrctmay1.BackColor = System.Drawing.Color.Transparent;
             this.repuestacorrctmay1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.repuestacorrctmay1.Location = new System.Drawing.Point(526, 190);
             this.repuestacorrctmay1.Name = "repuestacorrctmay1";
@@ -215,6 +239,7 @@
             // labelmay10
             // 
             this.labelmay10.AutoSize = true;
+            this.labelmay10.BackColor = System.Drawing.Color.Transparent;
             this.labelmay10.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmay10.Location = new System.Drawing.Point(334, 190);
             this.labelmay10.Name = "labelmay10";
@@ -225,63 +250,13 @@
             // lblResultadoFinal1
             // 
             this.lblResultadoFinal1.AutoSize = true;
+            this.lblResultadoFinal1.BackColor = System.Drawing.Color.Transparent;
             this.lblResultadoFinal1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultadoFinal1.Location = new System.Drawing.Point(348, 104);
+            this.lblResultadoFinal1.Location = new System.Drawing.Point(334, 104);
             this.lblResultadoFinal1.Name = "lblResultadoFinal1";
             this.lblResultadoFinal1.Size = new System.Drawing.Size(65, 22);
             this.lblResultadoFinal1.TabIndex = 4;
             this.lblResultadoFinal1.Text = "label5";
-            // 
-            // btnmenujuego
-            // 
-            this.btnmenujuego.BackColor = System.Drawing.Color.Orange;
-            this.btnmenujuego.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
-            this.btnmenujuego.ForeColor = System.Drawing.Color.White;
-            this.btnmenujuego.Location = new System.Drawing.Point(381, 331);
-            this.btnmenujuego.Margin = new System.Windows.Forms.Padding(2);
-            this.btnmenujuego.Name = "btnmenujuego";
-            this.btnmenujuego.Size = new System.Drawing.Size(166, 49);
-            this.btnmenujuego.TabIndex = 3;
-            this.btnmenujuego.Text = "Menu";
-            this.btnmenujuego.UseVisualStyleBackColor = false;
-            this.btnmenujuego.Click += new System.EventHandler(this.btnmenujuego_Click);
-            // 
-            // labelmay2
-            // 
-            this.labelmay2.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold);
-            this.labelmay2.Location = new System.Drawing.Point(243, 11);
-            this.labelmay2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelmay2.Name = "labelmay2";
-            this.labelmay2.Size = new System.Drawing.Size(450, 98);
-            this.labelmay2.TabIndex = 0;
-            this.labelmay2.Text = "Resultado";
-            this.labelmay2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblNivel
-            // 
-            this.lblNivel.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.lblNivel.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblNivel.Location = new System.Drawing.Point(243, 210);
-            this.lblNivel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNivel.Name = "lblNivel";
-            this.lblNivel.Size = new System.Drawing.Size(450, 49);
-            this.lblNivel.TabIndex = 1;
-            this.lblNivel.Text = "Nivel";
-            this.lblNivel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnmayReiniciar
-            // 
-            this.btnmayReiniciar.BackColor = System.Drawing.Color.Orange;
-            this.btnmayReiniciar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
-            this.btnmayReiniciar.ForeColor = System.Drawing.Color.White;
-            this.btnmayReiniciar.Location = new System.Drawing.Point(381, 261);
-            this.btnmayReiniciar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnmayReiniciar.Name = "btnmayReiniciar";
-            this.btnmayReiniciar.Size = new System.Drawing.Size(166, 49);
-            this.btnmayReiniciar.TabIndex = 2;
-            this.btnmayReiniciar.Text = "Jugar de Nuevo";
-            this.btnmayReiniciar.UseVisualStyleBackColor = false;
-            this.btnmayReiniciar.Click += new System.EventHandler(this.btnmayReiniciar_Click);
             // 
             // panel1
             // 
@@ -673,11 +648,21 @@
             this.labelmay8.TabIndex = 0;
             this.labelmay8.Text = "¿Qué nutriente es abundante en los mangos?";
             // 
+            // REGRESARME23
+            // 
+            this.REGRESARME23.BackColor = System.Drawing.Color.Transparent;
+            this.REGRESARME23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.REGRESARME23.Location = new System.Drawing.Point(363, 340);
+            this.REGRESARME23.Name = "REGRESARME23";
+            this.REGRESARME23.Size = new System.Drawing.Size(198, 42);
+            this.REGRESARME23.TabIndex = 8;
+            this.REGRESARME23.Click += new System.EventHandler(this.REGRESARME23_Click);
+            // 
             // Juegomayre1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 549);
+            this.ClientSize = new System.Drawing.Size(986, 549);
             this.Controls.Add(this.panelmay4);
             this.Controls.Add(this.panelmay5);
             this.Controls.Add(this.panelmay3);
@@ -710,11 +695,6 @@
 
         private System.Windows.Forms.Panel panelfinalmay1;
         private System.Windows.Forms.Label labelmay1;
-        private System.Windows.Forms.Panel panelmay9;
-        private System.Windows.Forms.Button btnmenujuego;
-        private System.Windows.Forms.Label labelmay2;
-        private System.Windows.Forms.Label lblNivel;
-        private System.Windows.Forms.Button btnmayReiniciar;
         private System.Windows.Forms.Panel panelmay1;
         private System.Windows.Forms.Label labelmay4;
         private System.Windows.Forms.Button btnopm1;
@@ -755,8 +735,12 @@
         private System.Windows.Forms.Button btnopm17;
         private System.Windows.Forms.Label labelmay9;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblResultadoFinal1;
+        private System.Windows.Forms.Panel panelmay9;
         private System.Windows.Forms.Label repuestacorrctmay1;
         private System.Windows.Forms.Label labelmay10;
+        private System.Windows.Forms.Label lblResultadoFinal1;
+        private System.Windows.Forms.Label lblNivel;
+        private System.Windows.Forms.Label JUGARDNUEV0;
+        private System.Windows.Forms.Label REGRESARME23;
     }
 }

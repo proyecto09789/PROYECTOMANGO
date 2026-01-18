@@ -218,5 +218,10 @@ namespace PROYECTOMANGO
 
             await Task.Delay(2000);
         }
+
+        private void Mangomacomaykel_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

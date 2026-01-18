@@ -559,7 +559,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 510);
+            this.ClientSize = new System.Drawing.Size(949, 510);
             this.Controls.Add(this.panelrecetaGlaseadoMangJengibre);
             this.Controls.Add(this.btnjuegococi);
             this.Controls.Add(this.paneldelusoculinario);

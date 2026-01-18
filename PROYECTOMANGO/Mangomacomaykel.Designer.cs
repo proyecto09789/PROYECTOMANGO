@@ -326,7 +326,7 @@
             // 
             // progresspbVida
             // 
-            this.progresspbVida.Location = new System.Drawing.Point(145, 484);
+            this.progresspbVida.Location = new System.Drawing.Point(150, 494);
             this.progresspbVida.Name = "progresspbVida";
             this.progresspbVida.Size = new System.Drawing.Size(398, 20);
             this.progresspbVida.TabIndex = 21;
@@ -335,7 +335,7 @@
             // 
             this.lblEnergiaTitulo.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.lblEnergiaTitulo.ForeColor = System.Drawing.Color.Blue;
-            this.lblEnergiaTitulo.Location = new System.Drawing.Point(38, 550);
+            this.lblEnergiaTitulo.Location = new System.Drawing.Point(45, 568);
             this.lblEnergiaTitulo.Name = "lblEnergiaTitulo";
             this.lblEnergiaTitulo.Size = new System.Drawing.Size(80, 20);
             this.lblEnergiaTitulo.TabIndex = 18;
@@ -344,7 +344,7 @@
             // pbAgua
             // 
             this.pbAgua.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.pbAgua.Location = new System.Drawing.Point(143, 550);
+            this.pbAgua.Location = new System.Drawing.Point(150, 568);
             this.pbAgua.Name = "pbAgua";
             this.pbAgua.Size = new System.Drawing.Size(400, 20);
             this.pbAgua.TabIndex = 19;
@@ -353,7 +353,7 @@
             // lblEnergiaValor
             // 
             this.lblEnergiaValor.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.lblEnergiaValor.Location = new System.Drawing.Point(553, 550);
+            this.lblEnergiaValor.Location = new System.Drawing.Point(560, 568);
             this.lblEnergiaValor.Name = "lblEnergiaValor";
             this.lblEnergiaValor.Size = new System.Drawing.Size(40, 20);
             this.lblEnergiaValor.TabIndex = 20;
@@ -364,7 +364,7 @@
             // 
             this.lblComidaTitulo.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.lblComidaTitulo.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblComidaTitulo.Location = new System.Drawing.Point(40, 519);
+            this.lblComidaTitulo.Location = new System.Drawing.Point(45, 531);
             this.lblComidaTitulo.Name = "lblComidaTitulo";
             this.lblComidaTitulo.Size = new System.Drawing.Size(99, 20);
             this.lblComidaTitulo.TabIndex = 15;
@@ -373,7 +373,7 @@
             // pbComida
             // 
             this.pbComida.ForeColor = System.Drawing.Color.Orange;
-            this.pbComida.Location = new System.Drawing.Point(145, 519);
+            this.pbComida.Location = new System.Drawing.Point(150, 531);
             this.pbComida.Name = "pbComida";
             this.pbComida.Size = new System.Drawing.Size(400, 20);
             this.pbComida.TabIndex = 16;
@@ -382,7 +382,7 @@
             // lblComidaValor
             // 
             this.lblComidaValor.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.lblComidaValor.Location = new System.Drawing.Point(555, 519);
+            this.lblComidaValor.Location = new System.Drawing.Point(560, 531);
             this.lblComidaValor.Name = "lblComidaValor";
             this.lblComidaValor.Size = new System.Drawing.Size(40, 20);
             this.lblComidaValor.TabIndex = 17;
@@ -393,7 +393,7 @@
             // 
             this.lblVidaTitulo.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.lblVidaTitulo.ForeColor = System.Drawing.Color.Red;
-            this.lblVidaTitulo.Location = new System.Drawing.Point(40, 484);
+            this.lblVidaTitulo.Location = new System.Drawing.Point(45, 494);
             this.lblVidaTitulo.Name = "lblVidaTitulo";
             this.lblVidaTitulo.Size = new System.Drawing.Size(80, 20);
             this.lblVidaTitulo.TabIndex = 12;
@@ -402,7 +402,7 @@
             // lblVidaValor
             // 
             this.lblVidaValor.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.lblVidaValor.Location = new System.Drawing.Point(555, 484);
+            this.lblVidaValor.Location = new System.Drawing.Point(560, 494);
             this.lblVidaValor.Name = "lblVidaValor";
             this.lblVidaValor.Size = new System.Drawing.Size(40, 20);
             this.lblVidaValor.TabIndex = 14;
@@ -451,7 +451,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(717, 597);
+            this.ClientSize = new System.Drawing.Size(717, 610);
             this.Controls.Add(this.btnnMenu12);
             this.Controls.Add(this.paneletapacrecimiento3);
             this.Controls.Add(this.progresspbVida);
@@ -471,6 +471,7 @@
             this.Name = "Mangomacomaykel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mangomacomaykel";
+            this.Load += new System.EventHandler(this.Mangomacomaykel_Load_1);
             this.panelmaymas1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.manf1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.manf2)).EndInit();

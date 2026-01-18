@@ -50,7 +50,7 @@ namespace PROYECTOBETA001
                     }
                     MyConn2.Close();
 
-                    INICIOEXITOSOFOTO.Visible = true;
+                    IINIEXITO.Visible = true;
 
                     fonNombre.Visible = true;
 
@@ -154,11 +154,11 @@ namespace PROYECTOBETA001
                     }
                     MyConn2.Close();
 
-                    INICIOEXITOSOFOTO.Visible = true;
+                    IINIEXITO.Visible = true;
 
                     await Task.Delay(2000);
 
-                    INICIOEXITOSOFOTO.Visible = false;
+                    IINIEXITO.Visible = false;
 
                     fonNombre.Visible = true;
 

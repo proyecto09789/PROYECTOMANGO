@@ -401,5 +401,8 @@
   <ItemGroup>
     <None Include="Resources\INICIOSISIÓNEXTISOSO.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FINALTEST.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

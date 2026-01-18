@@ -38,9 +38,8 @@
             this.relleno2 = new System.Windows.Forms.Label();
             this.relleno1 = new System.Windows.Forms.Label();
             this.fonNombre = new System.Windows.Forms.PictureBox();
-            this.INICIOEXITOSOFOTO = new System.Windows.Forms.PictureBox();
+            this.IINIEXITO = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fonNombre)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.INICIOEXITOSOFOTO)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUsername
@@ -171,16 +170,18 @@
             this.fonNombre.TabStop = false;
             this.fonNombre.Visible = false;
             // 
-            // INICIOEXITOSOFOTO
+            // IINIEXITO
             // 
-            this.INICIOEXITOSOFOTO.Image = global::PROYECTOMANGO.Properties.Resources.INICIOSISIÓNEXTISOSO;
-            this.INICIOEXITOSOFOTO.Location = new System.Drawing.Point(445, 255);
-            this.INICIOEXITOSOFOTO.Name = "INICIOEXITOSOFOTO";
-            this.INICIOEXITOSOFOTO.Size = new System.Drawing.Size(503, 330);
-            this.INICIOEXITOSOFOTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.INICIOEXITOSOFOTO.TabIndex = 11;
-            this.INICIOEXITOSOFOTO.TabStop = false;
-            this.INICIOEXITOSOFOTO.Visible = false;
+            this.IINIEXITO.AutoSize = true;
+            this.IINIEXITO.BackColor = System.Drawing.Color.Chartreuse;
+            this.IINIEXITO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IINIEXITO.ForeColor = System.Drawing.Color.Green;
+            this.IINIEXITO.Location = new System.Drawing.Point(543, 619);
+            this.IINIEXITO.Name = "IINIEXITO";
+            this.IINIEXITO.Size = new System.Drawing.Size(275, 24);
+            this.IINIEXITO.TabIndex = 11;
+            this.IINIEXITO.Text = "INICIO DE SISIÓN EXITOSO";
+            this.IINIEXITO.Visible = false;
             // 
             // LoginForm
             // 
@@ -191,7 +192,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.fonNombre);
-            this.Controls.Add(this.INICIOEXITOSOFOTO);
+            this.Controls.Add(this.IINIEXITO);
             this.Controls.Add(this.relleno1);
             this.Controls.Add(this.relleno2);
             this.Controls.Add(this.relleno3);
@@ -207,7 +208,6 @@
             this.Text = "Login";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fonNombre)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.INICIOEXITOSOFOTO)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,7 +224,7 @@
         private System.Windows.Forms.Label relleno2;
         private System.Windows.Forms.Label relleno1;
         private System.Windows.Forms.PictureBox fonNombre;
-        private System.Windows.Forms.PictureBox INICIOEXITOSOFOTO;
+        private System.Windows.Forms.Label IINIEXITO;
     }
 }
 

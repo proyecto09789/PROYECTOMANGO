@@ -466,7 +466,7 @@ namespace PROYECTOMANGO
 
         private void panelmay9_Paint(object sender, PaintEventArgs e)
         {
-            lblResultadoFinal1.Text = $"¡Juego Terminado!\n\nTu puntuación: {puntuacion}/100";
+            lblResultadoFinal1.Text = $" ¡Juego Terminado!\n\nTu puntuación: {puntuacion}/100";
 
             repuestacorrctmay1.Text = $"{Repuestacorrecta}";
 
@@ -479,6 +479,29 @@ namespace PROYECTOMANGO
         }
 
         private void btnmenujuego_Click(object sender, EventArgs e)
+        {
+            mangomayinterf ventm2 = new mangomayinterf();
+            ventm2.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void JUGARDNUEV0_Click(object sender, EventArgs e)
+        {
+            puntuacion = 0;
+            preguntaActual = 0;
+            panelmay9.Visible = false;
+            panelmay1.Location = new Point(38, 98);
+            panelmay1.Visible = true;
+            labelpuntuación.Text = "Puntuación: 0";
+            lblnumpre.Text = "1";
+        }
+
+        private void REGRESARME23_Click(object sender, EventArgs e)
         {
             mangomayinterf ventm2 = new mangomayinterf();
             ventm2.Show();
